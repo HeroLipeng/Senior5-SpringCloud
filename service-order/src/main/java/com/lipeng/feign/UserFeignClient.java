@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 指定服务名称：service-user1
  */
 @Component
-@FeignClient(name = "service-user1")
+@FeignClient(name = "service-user1"/*,fallback = UserFeignCallback.class*/)
 public interface UserFeignClient {
 
     @RequestMapping("/user/getById")

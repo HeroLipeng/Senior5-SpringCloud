@@ -14,14 +14,16 @@
         <module>zuul-gateway</module>
         <module>consul-server</module>
         <module>consul-client</module>
-        <module>service-user-interface</module>
-        <module>service-user</module>
-        <module>service-user-interface</module>
-        <module>service-user-interface</module>
         <module>service1-user1-interface1</module>
-        <module>service-user</module>
+
         <module>service-user1</module>
         <module>service-order</module>
+        <module>service-user2</module>
+        <module>service-users</module>
+        <module>jpa-student</module>
+        <module>day06exam</module>
+        <module>order-client</module>
+        <module>gateway-server</module>
     </modules>
 
     <parent>

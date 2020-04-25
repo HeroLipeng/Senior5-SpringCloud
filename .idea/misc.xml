@@ -5,12 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-user2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/day06exam/pom.xml" />
+        <option value="$PROJECT_DIR$/order-client/pom.xml" />
         <option value="$PROJECT_DIR$/service-user-interface/pom.xml" />
         <option value="$PROJECT_DIR$/service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/service-user2/pom.xml" />
       </set>
     </option>
   </component>

@@ -6,20 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-user" />
-        <module name="eureka-server" />
-        <module name="eureka-client" />
-        <module name="consul-server" />
-        <module name="service1-user1-interface1" />
-        <module name="consul-client" />
-        <module name="service-user1" />
-        <module name="service-order" />
+        <module name="gateway-server" />
         <module name="zuul-gateway" />
+        <module name="service1-user1-interface1" />
+        <module name="order-client" />
+        <module name="consul-server" />
+        <module name="service-order" />
+        <module name="service-users" />
+        <module name="eureka-client" />
+        <module name="service-user" />
+        <module name="consul-client" />
+        <module name="jpa-student" />
+        <module name="eureka-server" />
+        <module name="service-user2" />
+        <module name="service-user1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="order-client" target="1.8" />
+      <module name="service-order2" target="1.8" />
       <module name="service-user" target="1.8" />
       <module name="service-user-interface" target="1.8" />
+      <module name="service-user2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,11 +36,17 @@
       <module name="consul-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="jpa-student" options="-parameters" />
+      <module name="order-client" options="-parameters" />
       <module name="practicecloud" options="-parameters" />
       <module name="service-order" options="-parameters" />
+      <module name="service-order2" options="-parameters" />
       <module name="service-user" options="-parameters" />
       <module name="service-user-interface" options="-parameters" />
       <module name="service-user1" options="-parameters" />
+      <module name="service-user2" options="-parameters" />
+      <module name="service-users" options="-parameters" />
       <module name="service1-user1-interface1" options="-parameters" />
       <module name="zuul-gateway" options="-parameters" />
     </option>
