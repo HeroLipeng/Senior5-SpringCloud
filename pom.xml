@@ -24,6 +24,8 @@
         <module>day06exam</module>
         <module>order-client</module>
         <module>gateway-server</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
     <parent>

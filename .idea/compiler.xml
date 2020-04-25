@@ -9,6 +9,7 @@
         <module name="gateway-server" />
         <module name="zuul-gateway" />
         <module name="service1-user1-interface1" />
+        <module name="config-client" />
         <module name="order-client" />
         <module name="consul-server" />
         <module name="service-order" />
@@ -20,6 +21,7 @@
         <module name="eureka-server" />
         <module name="service-user2" />
         <module name="service-user1" />
+        <module name="config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +34,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="consul-client" options="-parameters" />
       <module name="consul-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
